@@ -1,0 +1,6 @@
+__pycache__/
+kuka_explore.py
+rl_env/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
