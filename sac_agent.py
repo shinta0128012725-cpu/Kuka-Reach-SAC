@@ -101,7 +101,7 @@ class ReplayBuffer:
     
 
 class SACAgent:
-    def __init__(self, state_dim, action_dim, gamma=0.99, tau=0.005, alpha=0.2, lr=3e-4):
+    def __init__(self, state_dim, action_dim, gamma=0.951, tau=0.0199, alpha=0.056, lr=0.00096):
         self.gamma = gamma
         self.tau = tau
         self.alpha = alpha

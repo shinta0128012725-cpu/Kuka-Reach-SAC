@@ -67,7 +67,7 @@ class RolloutBuffer:
 
 
 class PPOAgent:
-    def __init__(self, state_dim, action_dim, gamma=0.99, gae_lambda=0.95, clip_ratio=0.2, lr=3e-4):
+    def __init__(self, state_dim, action_dim, gamma=0.957, gae_lambda=0.887, clip_ratio=0.163, lr=0.00052):
         self.gamma = gamma
         self.gae_lambda = gae_lambda
         self.clip_ratio = clip_ratio
